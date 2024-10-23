@@ -35,6 +35,10 @@ pip install ./submodules/diff-gaussian-rasterization
 pip install ./submodules/simple-knn
 pip install ./submodules/simple-waymo-open-dataset-reader
 python script/test_gaussian_rasterization.py
+
+# Install nerfacc and tiny-cuda-nn manually
+pip install git+https://github.com/nerfstudio-project/nerfacc.git@8340e19daad4bafe24125150a8c56161838086fa
+pip install git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
 ```
 </details>
 
